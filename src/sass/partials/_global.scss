@@ -1,0 +1,25 @@
+.view-toggler {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+
+    a {
+        padding-left: 10px;
+        color: #ccc;
+        font-weight: 700;
+        transition: all .25s;
+
+        &:hover {
+            color: #333;
+        }
+    }
+
+    .active {
+        color: #333;
+    }
+}
+
+img {
+    margin-top: 30px;
+    width: 100%;
+}

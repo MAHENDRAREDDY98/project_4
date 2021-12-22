@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 4</title>
+  <link rel="stylesheet" href="/src/style/main.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <div class="jumbotron">
+        <h1 class="display-4">Image Gallery</h1>
+        <p class="lead">Random Images form random image host websites</p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="main-heading">Image Gallery</h2>
+            <span class="view-toggler"><a href="#0" id="grid" class="active">Grid</a> <a href="#0"
+                id="column">Column</a></span>
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row g-2" id="gallery">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?ktm" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?bike" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?flight" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?rain" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?tree" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?park" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?dog" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?cat" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?house" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?apple" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?ball" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?bat" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?rat" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?red" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?potato" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?running" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?chase" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?pet" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?bed" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?bedroom" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?kitchen" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?hall" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?remote" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?mobile" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?tv" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?laptop" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?computer" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?iphone" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?water" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?glass" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?rain" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?forest" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?greentea" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?park" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?white" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?blue" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?green" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?yellow" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?jeep" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?kia" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?bullet" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?flower" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?rose" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?ride" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?snow" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?rainbow" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?cloud" alt="" class="img-thumbnail">
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://source.unsplash.com/400x400/?car" alt="" class="img-thumbnail">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+
+  </footer>
+
+  <script src="./src/sass/vendor/bootstrap/js/jquery.js"></script>
+  <script src="./src/sass/vendor/bootstrap/js/bootstrap.js"></script>
+  <script>
+    $(document).ready(function () {
+      //grid on click
+      $('#grid').on('click', function () {
+        $('#gallery>div').addClass('col-sm-6 col-md-4 col-lg-3').removeClass('col-sm-12')
+        $(this).addClass('active')
+        $('#column').removeClass('active')
+      })
+
+      //column on click
+      $('#column').on('click', function () {
+        $('#gallery>div').addClass('col-sm-12').removeClass('col-sm-6 col-md-4 col-lg-3')
+        $(this).addClass('active')
+        $('#grid').removeClass('active')
+      })
+
+    })
+  </script>
+</body>
+
+</html>
